@@ -27,7 +27,6 @@ export default function About() {
         from gathering requirements and designing relational and non-relational databases to deploying applications in cloud solutions such as AWS,
         followed by monitoring and support. In addition, I have solid experience in working with microservices and event-driven architectures.
         I am an open and sociable person and ready to participate in team software development processes.</p>
-
     </motion.section>
   );
 }
