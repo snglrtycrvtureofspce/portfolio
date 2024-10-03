@@ -2,6 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
 import inDevelopment from '@/public/inDevelopment.png'
+import gateway from '@/public/gateway.png'
 
 export const links = [
   {
@@ -73,12 +74,19 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Gateway API",
+    description: "",
+    tags: ["Ocelot" ],
+    imageUrl: gateway,
+    link: 'https://api.snglrtycrvtureofspce.me/',
+  },
+  {
     title: "In development...",
     description: "",
     tags: ["Git" ],
     imageUrl: inDevelopment,
     link: 'https://github.com/snglrtycrvtureofspce/',
-  }
+  },
 ] as const;
 
 export const stackData = [
