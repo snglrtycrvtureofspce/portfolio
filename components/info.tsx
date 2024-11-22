@@ -9,11 +9,13 @@ import { FaTelegramPlane, FaLinkedin } from "react-icons/fa";
 import { TbBrandGithubFilled, TbBrandGitlab } from "react-icons/tb";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
-import main from "@/public/main.jpg";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
+
+  const portraitUrl = "https://639a5c86-aea6-414e-8505-51b2938ab53c.s3.eu-north-1.amazonaws.com/639a5c86-aea6-414e-8505-51b2938ab53c/portrait.jpg";
+
   return (
     <section
       ref={ref}
@@ -31,7 +33,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src={main}
+              src={portraitUrl}
               alt="portrait"
               width={192}
               height={192}

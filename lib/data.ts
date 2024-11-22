@@ -47,7 +47,7 @@ export const experiencesData = [
     location: "Minsk, Belarus - Remote work",
     description:
       "• Working in a managed team using Agile methodology;\n• CRM system development;\n• Creating, maintaining and configuring services, writing NUnit tests;\n• Working with the cloud (Amazon S3, IAM);\n• Database design and administration;\n• CI/CD (BitBucket);\n• Developed a cloud-based file synchronization application with microservices on the .NET MAUI platform. As well as small applications like XML editor.",
-    tags: ["C#", "ASP.NET Core", ".NET Core", "Entity Framework Core", "MediatR", "FluentValidation", "AutoMapper", "Refit", "JWT Auth", "NUnit", "Amazon Web Services (AWS)", "RabbitMQ", "Hangfire", "SignalR", "Firebase", "Elasticsearch", "Docker", "Portainer", "CI/CD", "Microsoft SQL Server", "SQL", "T-SQL", "Git"],
+    tags: ["C#", "ASP.NET Core", ".NET Core", "Entity Framework Core", "MediatR", "FluentValidation", "AutoMapper", "Refit", "JWT Auth", "NUnit", "AWS (Amazon S3, IAM)", "RabbitMQ", "Hangfire", "SignalR", "Firebase", "Elasticsearch", "Docker", "Portainer", "SQL", "Microsoft SQL Server", "CI/CD", "Git"],
     icon: React.createElement(CgWorkAlt),
     date: "July 2023 - June 2024 · 1 year",
   },
@@ -57,7 +57,7 @@ export const experiencesData = [
     location: "Minsk, Belarus - Hybrid work format",
     description:
       "Completion of industrial-technological and pre-diploma practice. Developed a software tool to automate the work of a hotel administrator. Automated the following processes:\n• Keep records of reservations, guests, rooms and employees, as well as provide additional services to hotel guests;\n• Hotel management and operation (including effective inventory management, resources, flexibility in staff work schedules and accounting of financial flows);\n• Infrastructure management, such as buildings, equipment, communications, maintenance and cleaning;\n• Creating reports on hotel occupancy, average booking cost, profitability for different periods and other key indicators;\n• Implementation of an analytics system for demand forecasting and rate optimization based on data analysis;\n• Creation of a module for managing guest feedback, including processing reviews, suggestions and complaints;\n• Developing a loyalty system for regular customers, including accrual of bonuses and provision of special offers.",
-    tags: ["C#", ".NET Core", "Entity Framework Core", "ADO.NET", "Windows Forms", "WPF", "Docker", "Microsoft SQL Server", "SQL", "T-SQL", "Git", "Microsoft Office"],
+    tags: ["C#", ".NET Core", "Entity Framework Core", "ADO.NET", "Windows Forms", "WPF", "Docker", "Microsoft SQL Server", "SQL", "Git", "Microsoft Office"],
     icon: React.createElement(CgWorkAlt),
     date: "November 2023 - April 2024 · 6 months",
   },
@@ -76,7 +76,7 @@ export const projectsData = [
   {
     title: "Gateway API",
     description: "",
-    tags: ["Ocelot", "C#", "ASP.NET Core", ".NET Core", "CI/CD (GitLab)"],
+    tags: ["C#", "Ocelot", "ASP.NET Core", ".NET Core", "CI/CD (GitLab)"],
     imageUrl: gateway,
     link: 'https://api.snglrtycrvtureofspce.me/',
   },
@@ -105,8 +105,8 @@ export const projectsData = [
 
 export const stackData = [
   "C#",
-  "ASP.NET Core",
   ".NET Core",
+  "ASP.NET Core",
   "Entity Framework Core",
   "MediatR",
   "FluentValidation",
@@ -121,7 +121,10 @@ export const stackData = [
   "Firebase",
   "Elasticsearch",
   "Docker (Portainer)",
-  "CI/CD (GitLab, BitBucket)",
-  "DBMS (MSSQL, PostgreSQL)",
+  "SQL",
+  "DBMS (MS SQL Server, PostgreSQL)",
+  "CI/CD",
+  "DRY/KISS/SOLID/SDLC",
+  "Git",
   "Angular (Basic), React (Basic)"
 ] as const;
