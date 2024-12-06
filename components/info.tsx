@@ -69,6 +69,14 @@ export default function Intro() {
         .NET Software Engineer.
       </motion.h1>
 
+      <motion.h2
+        className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[0] sm:text-1xl "
+        initial={{ y: 100, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+      >
+        Minsk, Belarus (ready to relocate)
+      </motion.h2>
+
       <motion.div
         className="flex flex-col sm:flex-row justify-center items-center gap-4 px-4 text-lg font-medium"
         initial={{ y: 100, opacity: 0 }}
